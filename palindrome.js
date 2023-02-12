@@ -1,13 +1,17 @@
 // wriiten code for palindrome.
-let str='namai';
+
+let str='naman';
 bag='';
-for (i=0;i<str.length;i++){
-  bag=str[i]+bag;
+for (i=str.length-1;i>=0;i--)
+{
+  bag=bag+str[i]
   
 }
-if(bag==str){
-  console.log('given string is palindromic in nature ')
+if(bag==str)
+{
+  console.log('given string is palindromic in nature.')
 }
-else {
-  console.log('nature is not palindromic')
+else
+{
+  console.log('nature is not palindromic.')
 }
